@@ -54,3 +54,15 @@ body {
 .cronometer-buttons input#reset:hover {
   background: rgba(55, 0, 0, 0.8);
 }
+
+@media (max-width: 500px) {
+  .container {
+    max-width: max-content;
+  }
+  .cronometer {
+    font-size: 2.5rem;
+  }
+  .cronometer-buttons {
+    flex-direction: column;
+  }
+}
