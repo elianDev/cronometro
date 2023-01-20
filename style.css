@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #ccc;
+}
+
+.container {
+  height: 100%;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 2rem;
+  display: grid;
+  justify-content: center;
+  gap: 12px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.cronometer {
+  justify-self: center;
+  font-size: 4rem;
+}
+
+.cronometer-buttons {
+  justify-self: center;
+  display: flex;
+  gap: 10px;
+}
+
+.cronometer-buttons input {
+  padding: 0.5rem 1rem;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  background: #ccc;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.cronometer-buttons input:hover {
+  cursor: pointer;
+}
+
+.cronometer-buttons input#init:hover {
+  background: green;
+}
+
+.cronometer-buttons input#stop:hover {
+  background: tomato;
+}
+
+.cronometer-buttons input#reset:hover {
+  background: rgba(55, 0, 0, 0.8);
+}
